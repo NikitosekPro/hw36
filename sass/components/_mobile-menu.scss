@@ -10,8 +10,10 @@
 
     transition: transform 250ms ease-in-out;
 
-    background-color: aqua;
+    background-color: $blue-color;
 }
+
+
 
 .menu-container.is-open {
     transform: translateX(0);
@@ -24,3 +26,22 @@
         display: block;
     }
 }
+
+.mobile-menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-menu__item--link {
+    color: $white-color;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.mobile-close-btn {
+    fill: $black-color;
+    display: flex;
+}
+

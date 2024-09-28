@@ -2022,7 +2022,7 @@ textarea::placeholder {
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  background-color: aqua;
+  background-color: #2196f3;
 }
 
 .menu-container.is-open {
@@ -2038,4 +2038,30 @@ textarea::placeholder {
   .menu-toggle {
     display: block;
   }
+}
+
+.mobile-menu__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-menu__item--link {
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.mobile-close-btn {
+  fill: #212121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
