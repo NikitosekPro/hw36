@@ -22,7 +22,12 @@
 .menu-toggle {
     display: none;
 
-    @media screen and (max-width: $mobile-adapt) {
+    @media screen and (min-width: $mobile-adapt) {
+        display: block;
+    }
+
+
+    @media screen and (max-width:$mobile-adapt) {
         display: block;
     }
 }
